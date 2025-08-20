@@ -23,7 +23,7 @@ qBittorrent permette limiti globali/categoria, ma non per-tracker. qb-tracker-se
 
 ## Installazione
 ```bash
-git clone https://github.com/<tuo-utente>/qb-tracker-sentinel.git
+git clone https://github.com/davidesidoti/qb-tracker-sentinel.git
 cd qb-tracker-sentinel
 python -m venv .venv
 source .venv/bin/activate  # su Windows: .venv\Scripts\activate

@@ -1,0 +1,29 @@
+qbittorrent:
+  host: "http://127.0.0.1:8080"
+  username: "admin"
+  password: "password"
+  verify_ssl: false
+  timeout: 15
+
+policy:
+  default:
+    ratio: 2.0
+    seeding_minutes: 720
+    idle_minutes: 60
+    action: pause
+    include_tags: []
+    exclude_tags: []
+  trackers:
+    "tracker.example.org":
+      ratio: 1.0
+      seeding_minutes: 180
+      idle_minutes: 15
+      action: pause
+    "anothertracker.tld":
+      ratio: 3.0
+      action: remove
+
+runtime:
+  interval_seconds: 60
+  dry_run: true
+  log_level: "INFO"

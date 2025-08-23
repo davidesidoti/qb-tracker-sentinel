@@ -117,7 +117,7 @@ Ogni stop viene loggato con: `AZIONE | hash | nome | tracker | motivo`.
 ## Dipendenze
 `requirements.txt`:
 ```
-qbittorrent-api>=2025.7.1
+qbittorrent-api>=2025.7.0
 PyYAML>=6.0.1
 ```
 

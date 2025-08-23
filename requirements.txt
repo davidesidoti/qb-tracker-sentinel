@@ -1,0 +1,2 @@
+qbittorrent-api>=2025.7.0
+PyYAML>=6.0.1
